@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/teclado.css">
+    <title>Keyboard</title>
+</head>
+<body>
+    
+    <h1></h1> 
+    <main id="teclado">
+         <div class="botão_ligar">
+             <p>Power</p>
+         </div>
+      
+        <h3 >40 bpm</h3>
+      <input type="range" min="10" max="240" value="40" id="bpm" />
+      <audio src="clap.wav"></audio>
+      <button id="play" >Play</button>
+
+         <div class="tela">
+            <a>Status:</a>
+            <a>Notas:</a>
+            <a>Efeitos:</a>
+            <a>Delay:</a>
+        </div>
+
+        <div id="teclas">
+
+          <div class="tecla" id="C4">
+              <div class="branca" > <p>C3</p></div>
+              
+          </div>
+          <div class="tecla" >
+              <div class="branca" id="D4">  <p>D3</p></div>
+              <div class="preta" id="C4Sus"> <p ><font color="white">C3#</font></p></div>
+          </div>
+          <div class="tecla">
+              <div class="branca" id="E4"> <p>E3</p></div>
+              <div class="preta" id="D4Sus"> <p ><font color="white">D3#</font></p></div>
+          </div>
+          <div class="tecla">
+              <div class="branca" id="F4" >  <p>F3</p></div>
+              
+          </div>
+          <div class="tecla">
+              <div class="branca" id="G4">  <p>G3</p></div>
+              <div class="preta" id="F4Sus"> <p ><font color="white">F3#</font></p></div>
+          </div>
+          <div class="tecla">
+              <div class="branca" id="A4">  <p>A3</p></div>
+              <div class="preta" id='G4Sus'> <p ><font color="white">G3#</font></p></div>
+          </div>
+          <div class="tecla">
+              <div class="branca" id="B4"> <p>B3</p></div>
+              <div class="preta" id="A4Sus"> <p ><font color="white">A3#</font></p></div>
+          </div>
+          <div class="tecla" >
+              <div class="branca" id="C"> <p>C4</p></div>
+             
+          </div>
+          <div class="tecla">
+              <div class="branca" id='D'> <p>D4</p></div>
+              <div class="preta" id="CSus"> <p ><font color="white">C4#</font></p></div>
+          </div>
+          <div class="tecla">
+              <div class="branca" id="E"> <p>M4</p></div>
+              <div class="preta" id="DSus"> <p ><font color="white">D4#</font></p></div>
+          </div>
+          <div class="tecla">
+              <div class="branca" id="F"> <p>F4</p></div>
+             
+          </div>
+          <div class="tecla">
+              <div class="branca" id="G"> <p>G4</p></div>
+              <div class="preta" id="FSus"> <p ><font color="white">F4#</font></p></div>
+          </div>
+          <div class="tecla" >
+              <div class="branca" id='A'> <p>A4</p></div>
+              <div class="preta" id='GSus'> <p ><font color="white">G4#</font></p></div>
+          </div>
+          <div class="tecla">
+              <div class="branca" id="B"> <p>B4</p></div>
+              <div class="preta" id="ASus"> <p ><font color="white">A4#</font></p></div>
+          </div>
+
+        </div>
+
+    <script src='js/audioApi.js'></script>        
+    </main>
+</body>
+</html>
